@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>combine pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  
+  <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+<style>
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color:#ffe6e6;
+}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+  <!-- h1 اخترنا عنوان  با استخدام تاق -->
+
+    <div class="slidecontainer">
+<p>motorl1 </p>
+<p>Value1: <span id="demo1"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider1" id="myRange1">
+
+
+
+<p>motorl2 </p>
+ <p>Value2: <span id="demo2"></span> </p>
+
+
+  <input type="range" min="1" max="100" value="50" class="slider2" id="myRange2">
+  
+
+<p>motorl3 </p>
+ <p>Value3: <span id="demo3"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider3" id="myRange3">
+ 
+  
+<p>motorl4 </p>
+<p>Value4: <span id="demo4"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider4" id="myRange4">
+  
+  
+ <p>motorl5 </p>
+ <p>Value5: <span id="demo5"></span> </p>
+  <input type="range" min="1" max="100" value="50" class="slider5" id="myRange5">
+  
+</div>
+<script>
+    
+    slider1 = document.getElementById("myRange1");
+        output = document.getElementById("demo1");
+        output.innerHTML = slider.value;
+       
+        slider.oninput = function() {
+            output.innerHTML =this.Value;
+        }
+        
+    </script>
+<script>
+    
+   var slider1 = document.getElementById("myRange1");
+    var output1 = document.getElementById("demo1");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider1.oninput = function(){
+        output1.innerHTML =this.value;
+        
+    } 
+    
+    
+    
+   
+    </script>
+<script>
+    
+   var slider2 = document.getElementById("myRange2");
+    var output2 = document.getElementById("demo2");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider2.oninput = function(){
+        output2.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	
+<script>
+    
+   var slider3 = document.getElementById("myRange3");
+    var output3 = document.getElementById("demo3");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider3.oninput = function(){
+        output3.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	<script>
+    
+   var slider4 = document.getElementById("myRange4");
+    var output4 = document.getElementById("demo4");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider4.oninput = function(){
+        output4.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	<script>
+    
+   var slider5 = document.getElementById("myRange5");
+    var output5 = document.getElementById("demo5");
+    output1.innerHTML = slider1.nodeValue;
+    
+       slider5.oninput = function(){
+        output5.innerHTML =this.value;
+        
+    } 
+    
+    </script>
+	
+	
+	
+<input type="submit" value="save">
+  <input type="submit" value="run">
+
+<br>
+<br>
+<br>
+
+
+
+</style>
+<style>
+div.a {
+text-align: center;
+font-size:77%;
+}
+</style>
+<div class="a">
+<p></p>
+<h1>report control base</h1>
+<style>
+.Forward{
+border 1 px solid #700;
+padding:15px;
+color:#fff;
+background: #700;
+border-radius: 5px;
+transition: all 0.5s;
+font-size: 20px;
+text-align: center;
+} </style>
+
+<p><button class="Forward"> Forward </button></p>
+
+<style>
+.Left{
+border 1 px solid #700;
+padding:15px;
+color:#fff;
+background: #700;
+border-radius: 5px;
+transitionn: all 0.5s;
+font-size: 20px;
+
+} </style>
+<button class="Left"> Left </button>
+
+<style>
+.stop{
+border 1 px solid #700;
+padding:15px;
+color:#fff;
+background: #700;
+border-radius: 5px;
+transitionn: all 0.5s;
+font-size: 20px;
+
+} </style>
+<button class="stop">stop </button>
+<style>
+.Right{
+border 1 px solid #700;
+padding:15px;
+color:#fff;
+background: #700;
+border-radius: 5px;
+transitionn: all 0.5s;
+font-size: 20px;
+
+} </style>
+<button class="Right">Right</button> 
+
+<style>
+.Backward{
+border 1 px solid #700;
+padding:15px;
+color:#fff;
+background: #700;
+border-radius: 5px;
+transitionn: all 0.5s;
+font-size: 20px;
+} </style>
+<p> <button class="Backward"> Backward </button></p>
+</div>
+</form>
+
+
+
+
+</body>
+</html>
+</head>
